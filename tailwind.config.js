@@ -1,14 +1,13 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    screens: {
-      sm: "768px",
-      md: "890px",
-      lg: "1024px",
-      xl: "1280px",
-    },
-
     extend: {
+      screens: {
+        sm: "768px",
+        md: "890px",
+        lg: "1024px",
+        xl: "1280px",
+      },
       fontFamily: {
         galanoGrotesqueAltRegular: ["GalanoGrotesqueAltRegular", "sans-serif"],
         galanoGrotesqueSemiBold: ["GalanoGrotesqueSemiBold", "sans-serif"],

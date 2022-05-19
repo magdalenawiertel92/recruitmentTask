@@ -14,49 +14,58 @@
   <body class="font-galanoGrotesqueAltRegular">
     <header>
       <div
-        class="flex items-center justify-between h-[61px] mx-auto max-w-7xl my-6"
+        class="px-4 w-full flex items-center justify-between h-[61px] mx-auto my-6 sm:justify-start xl:max-w-7xl xl:p-0"
       >
         <!-- LOGO -->
         <div class="cursor-pointer">
-          <img class="max-w-[270px]" src="/src/imges/logo.svg" alt="" />
+          <img
+            class="max-w-[180px] md:max-w-[270px]"
+            src="/src/imges/logo.svg"
+            alt=""
+          />
         </div>
         <!-- MENU -->
-        <nav class="hidden color-basicBlue md:flex">
+        <nav class="hidden color-basicBlue sm:flex sm:mr-6 sm:w-2/3 lg:mr-16">
           <ul
-            class="flex font-galanoGrotesqueSemiBold text-basicBlue text-lg lg:pl-72 lg-8"
+            class="flex font-galanoGrotesqueSemiBold text-basicBlue text-lg lg-8 sm:w-full sm:justify-end"
           >
             <li
-              class="mr-8 relative after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full"
+              class="mr-4 text-sm relative after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full md:text-base lg:text-lg"
             >
               Emner
             </li>
             <li
-              class="mr-8 relative after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full"
+              class="mr-4 text-sm relative after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full md:text-base lg:text-lg"
             >
               Råd og regler
             </li>
             <li
-              class="mr-8 relative after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full"
+              class="mr-4 text-sm relative after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full md:text-base lg:text-lg"
             >
               Nyt fra myndighederne
             </li>
             <li
-              class="relative after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full"
+              class="relative text-sm after:content-[' '] after:absolute after:left-0 after:-bottom-4 after:bg-underlineBlue after:h-1 after:w-0 hover:after:w-full md:text-base lg:text-lg"
             >
               English
             </li>
           </ul>
         </nav>
-        <!-- SEARCH -->
-        <div class="h-[30px]">
-          <input class="hidden" type="text" placeholder="Søg" />
-          <button><img src="/src/imges/magnifying_glass.svg" alt="" /></button>
-        </div>
-        <!-- HAMBURGER MENU -->
-        <div class="relative">
-          <div
-            class="h-[3px] w-[40px] bg-basicBlue after:absolute after:content-[' '] after:h-[3px] after:w-[40px] after:left-0 after:top-2.5 after:bg-basicBlue before:absolute before:content-[' '] before:h-[3px] before:w-[40px] before:left-0 before:bottom-2.5 before:bg-basicBlue"
-          ></div>
+        <!-- SEARCH + HAMBURGER MENU -->
+        <div class="flex">
+          <!-- search -->
+          <div class="h-[30px] w-[45px] mr-6">
+            <input class="hidden" type="text" placeholder="Søg" />
+            <button>
+              <img src="/src/imges/magnifying_glass.svg" alt="" />
+            </button>
+          </div>
+          <!-- hamburger menu-->
+          <div class="relative w-[45px] flex items-center">
+            <div
+              class="h-[3px] w-[40px] bg-basicBlue after:absolute after:content-[' '] after:h-[3px] after:w-[40px] after:left-0 after:top-6 after:bg-basicBlue before:absolute before:content-[' '] before:h-[3px] before:w-[40px] before:left-0 before:bottom-6 before:bg-basicBlue"
+            ></div>
+          </div>
         </div>
       </div>
     </header>
