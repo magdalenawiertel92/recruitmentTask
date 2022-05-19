@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GalanoGrotesqueAltRegular";
+  src: url("/src/fonts/GalanoGrotesqueAltRegular.otf");
+}
+
+@font-face {
+  font-family: "GalanoGrotesqueSemiBold";
+  src: url("/src/fonts/GalanoGrotesqueSemiBold.otf");
+}
+
+@font-face {
+  font-family: "GalanoGrotesqueAltMedium";
+  src: url("/src/fonts/GalanoGrotesqueAltMedium.otf");
+}
+
+@font-face {
+  font-family: "GalanoGrotesqueBold";
+  src: url("/src/fonts/GalanoGrotesqueBold.otf");
+}
